@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">myFlickr.lite</string>
     <string name="simple_text">Image Fragment</string>
-    <string name="mock_string">Mock fragment</string>
+    <string name="mock_string1">Mock fragment1</string>
+    <string name="mock_string2">Mock fragment2</string>
+    <string name="mock_string3">Mock fragment3</string>
+    <string name="mock_string4">Mock fragment4</string>
+    <string name="mock_string5">Mock fragment5</string>
 </resources>

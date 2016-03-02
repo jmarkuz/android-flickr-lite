@@ -10,6 +10,7 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/mock_string" />
+        android:text="@string/mock_string5"
+        android:background="@android:color/holo_purple"/>
 
 </RelativeLayout>
