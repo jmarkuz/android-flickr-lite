@@ -11,21 +11,12 @@ import java.util.List;
 public class ImageModel {
 
     private int id;
-    private String author_name;
-    private String image_name;
-    private String date;
     private String image;
 
 
     public ImageModel(int imageId,
-                    /*  String author_name,
-                      String image_name,
-                      String date,*/
                       String image) {
         this.id = imageId;
-       /* this.author_name = author_name;
-        this.image_name = image_name;
-        this.date = date;*/
         this.image = image;
     }
 
@@ -45,30 +36,6 @@ public class ImageModel {
 
         return imageList;
     }
-
- /*   public String getAuthorName() {
-        return author_name;
-    }
-
-    public void setAuthorName(String author_name) {
-        this.author_name = author_name;
-    }
-
-    public String getImageName() {
-        return image_name;
-    }
-
-    public void setImageName(String image_name) {
-        this.image_name = image_name;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }*/
 
     public String getImage() {
         return image;
